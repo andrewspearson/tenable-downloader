@@ -139,11 +139,11 @@ def file_verify(file, hash_func, digest):
         return hash_obj.hexdigest() == digest
 
 
-# Get Bearer Token and create a Downloads client
+# Get bearer token and create a Downloads client
 if config.has_option('downloads', 'bearer_token'):
     downloads = Downloads()
 else:
-    auth = getpass(prompt='Enter Tenable Downloads Bearer token ID: ')
+    auth = getpass(prompt='Enter Tenable downloads bearer token ID: ')
     downloads = Downloads(auth)
 
 # Get download pages
