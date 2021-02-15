@@ -24,6 +24,4 @@ This seems to only be an issue on macOS.
 ## Usage
 tenable-downloader.py may read the bearer token either interactively or through an INI file. If the ```tenable.ini``` file is present and contains a ```bearer_token```, then you will not be prompted to enter a bearer token. If the ```tenable.ini``` file is not present or the ```bearer_token``` is not defined, then you will be prompted to enter a bearer token.
 
-tenable-downloader.py reading bearer token interactively:
-
-tenable-downloader.py reading bearer token through a ```tenable.ini``` file:
+![](https://andrewspearson.github.io/file-server/repositories/tenable-downloader/tenable-downloader.gif)
