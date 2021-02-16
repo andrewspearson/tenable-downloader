@@ -4,7 +4,7 @@ tenable-downloader.py is a menu driven tool for downloading Tenable software.
 * Python3
 * [Tenable Downloads API Bearer token](https://www.tenable.com/downloads/api-docs)
 ## Installation
-tenable-downloader.py is a dependency free, standalone Python program.
+tenable-downloader.py is a dependency free, standalone Python program. Just download it and run it.
 ### git
 ```
 $ git clone https://github.com/andrewspearson/tenable-downloader.git
