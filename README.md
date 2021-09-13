@@ -7,18 +7,18 @@ tenable-downloader.py is a menu driven tool for downloading Tenable software.
 tenable-downloader.py is a dependency free, standalone Python program. Just download it and run it.
 ### git
 ```
-$ git clone https://github.com/andrewspearson/tenable-downloader.git
+git clone https://github.com/andrewspearson/tenable-downloader.git
 ```
 ### curl
 ```
-$ curl https://raw.githubusercontent.com/andrewspearson/tenable-downloader/main/tenable-downloader.py -O
+curl https://raw.githubusercontent.com/andrewspearson/tenable-downloader/main/tenable-downloader.py -O
 ```
 
 **NOTE:** macOS users running Python 3.6+ will need to [install certificates](https://bugs.python.org/issue28150).
 
 TLDR, run this command:
 ```
-$ /Applications/Python {version}/Install Certificates.command
+/Applications/Python {version}/Install Certificates.command
 ```
 This seems to only be an issue on macOS.
 ## Usage
